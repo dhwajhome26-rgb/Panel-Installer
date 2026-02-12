@@ -51,7 +51,7 @@ elif [ "$choice" == "2" ]; then
 # ===============================
 elif [ "$choice" == "3" ]; then
 
-echo "🚀 Installing Real VPS Setup..."
+echo "🚀 Installing Puffer Setup..."
 
   echo "📦 Downloading Puffer Installer..."
   bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/puffer-panel/refs/heads/main/install)
