@@ -7,7 +7,7 @@ echo "================================="
 echo ""
 echo "( 1 ) Pterodactyl"
 echo "( 2 ) Real VPS"
-echo ""
+echo "( 3 ) PufferPanel"
 
 read -p "[ Select Number ]: " choice
 
@@ -44,6 +44,24 @@ elif [ "$choice" == "2" ]; then
   echo ""
   echo "🎊 VPS Installed Successfully."
 
+# ===============================
+# OPTION 3 - Puffer INSTALL
+# ===============================
+elif [ "$choice" == "3" ]; then
+
+echo "🚀 Installing Real VPS Setup..."
+
+  echo "📦 Downloading Puffer Installer..."
+  bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/puffer-panel/refs/heads/main/install)
+
+  echo "💚 Panel Running"
+  sudo systemctl enable --now pufferpanel 
+
+      echo "✅ Panel Started"
+
+  echo "👤 Create Admin..."
+  sudo pufferpanel user add
+      
 else
   echo "❌ Invalid option!"
 fi
