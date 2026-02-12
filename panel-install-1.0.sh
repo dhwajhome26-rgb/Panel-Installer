@@ -56,7 +56,7 @@ echo "🚀 Installing Puffer Setup..."
   echo "📦 Downloading Puffer Installer..."
   bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/puffer-panel/refs/heads/main/install)
 
-  echo "💚 Panel Running"
+  echo "💚 Panel Running , 👤 Ctrl+C For Create Admin Account"
   sudo systemctl enable --now pufferpanel 
 
       echo "✅ Panel Started"
