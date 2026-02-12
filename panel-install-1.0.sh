@@ -23,6 +23,8 @@ fi
 if [ "$choice" == "1" ]; then
 
   echo "🚀 Installing Pterodactyl..."
+
+  echo "📦 Opening Main Menu [ Jishnu ]..."
   bash <(curl -s https://ptero.jishnu.fun)
 
 # ===============================
