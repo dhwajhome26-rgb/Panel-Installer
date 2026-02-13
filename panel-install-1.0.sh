@@ -1,15 +1,25 @@
 #!/usr/bin/env bash
 
-clear
-echo "================================="
-echo "        💻 Panel Installer"
-echo "================================="
-echo ""
-echo "( 1 ) Pterodactyl"
-echo "( 2 ) Real VPS"
-echo "( 3 ) PufferPanel"
+# Colors
+RED='\033[1;31m'
+GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[1;34m'
+MAGENTA='\033[1;35m'
+CYAN='\033[1;36m'
+WHITE='\033[1;37m'
+NC='\033[0m'
 
-read -p "[ Select Number ]: " choice
+clear
+echo -e "${CYAN}=================================${NC}"
+echo -e "${MAGENTA}        💻 Panel Installer ${WHITE}By DhwaJ_XD${NC}"
+echo -e "${CYAN}=================================${NC}"
+echo ""
+echo -e "${GREEN}( 1 ) ${YELLOW}Pterodactyl${NC}"
+echo -e "${GREEN}( 2 ) ${YELLOW}Real VPS${NC}"
+echo -e "${GREEN}( 3 ) ${YELLOW}PufferPanel${NC}"
+echo ""
+read -p "$(echo -e ${BLUE}[ Select Number ]:${NC} )" choice
 
 # Check root
 if [[ $EUID -ne 0 ]]; then
