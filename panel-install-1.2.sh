@@ -18,7 +18,7 @@ echo ""
 echo -e "${GREEN}( 1 ) ${YELLOW}Pterodactyl${NC}"
 echo -e "${GREEN}( 2 ) ${YELLOW}Real VPS${NC}"
 echo -e "${GREEN}( 3 ) ${YELLOW}PufferPanel${NC}"
-echo -e "${GREEN}( 3 ) ${YELLOW}TeryxPanel${NC}"
+echo -e "${GREEN}( 4 ) ${YELLOW}TeryxPanel${NC}"
 echo ""
 read -p "$(echo -e ${BLUE}[ Select Number ]:${NC} )" choice
 
@@ -78,7 +78,7 @@ echo "🚀 Installing Puffer Setup..."
 # ===============================
 # OPTION 1 - PANEL INSTALL
 # ===============================
-if [ "$choice" == "1" ]; then
+if [ "$choice" == "4" ]; then
 
   echo "🚀 Opening Main Menu..."
 
