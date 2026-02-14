@@ -76,12 +76,11 @@ echo "🚀 Installing Puffer Setup..."
   sudo pufferpanel user add
 
 # ===============================
-# OPTION 1 - PANEL INSTALL
+# OPTION 4 - TERYX MENU
 # ===============================
-if [ "$choice" == "4" ]; then
+elif [ "$choice" == "4" ]; then
 
   echo "🚀 Opening Main Menu..."
-
   echo "📦 Main Menu..."
   bash teryx-install-1.0.sh
       
