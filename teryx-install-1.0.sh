@@ -77,12 +77,10 @@ elif [ "$choice" == "2" ]; then
   echo "📥 NPM Installing..."
   npm install
 
-  echo -e "${GREEN}📥 Paste Your Node Configration...${NC}"
-  cd daemon
+  echo -e "${GREEN}📥 Follow Steps...${NC}"
 
   echo ""
-  echo -e "${GREEN}📥 cd daemon...${NC}"
-  cd daemon
+  echo -e "\033[1;37mWrite \033[1;32mcd daemon\033[1;37m And Write \033[1;32mnpm install\033[1;37m And \033[1;32mPaste Your Node Configration\033[0m"
 
 else
   echo "❌ Invalid option!"
