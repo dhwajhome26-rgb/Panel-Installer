@@ -123,7 +123,8 @@ elif [ "$choice" == "6" ]; then
 # ===============================
 elif [ "$choice" == "7" ]; then
 
-  echo "🚀 VM Manager Main Menu..."
-  bash <(curl -fsSL https://raw.githubusercontent.com/dhwajhome26-rgb/VM/main/vm-core.sh | sed 's/\r$//')
+  echo "🚀 VM Manager GIT REPO... ]"
+
+  echo -e "🚀 VM-Manager Link Is Here: ${GREEN}https://github.com/dhwajhome26-rgb/VM-Manager${WHITE}"
 
 fi
